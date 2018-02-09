@@ -54,4 +54,4 @@ class Notebook:
     def _find_note(self,note_id):
         '''Locate the note with the given id.'''
         for note in self.notes:
-            if
+            if ()
