@@ -31,10 +31,7 @@ class Note:
     def match(self, filter):
         ''' Determine if this note matches the filter text.
         return True if it matches , False otherwise
-
-
         Search is case sensitive and matches both text and tags.'''
-
         return filter in self.memo or filter in self.tags
 
 
@@ -44,7 +41,7 @@ class Notebook:
     '''
 
     def __init__(self):
-    ''' Initialize a notebook with an empty list.'''
+        ''' Initialize a notebook with an empty list.'''
         self.notes = []
 
     def new_note(self, memo, tags = ''):
